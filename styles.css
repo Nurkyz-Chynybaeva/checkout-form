@@ -17,5 +17,17 @@ body{
 p{
     font-size: 20px;
 }
+.container{
+    display: flex;
+}
+.first{
+    max-width: 650px;
+}
+.container .cont-1{
+    justify-content: space-between;
+}
+.cont-2{
+
+}
 
 
