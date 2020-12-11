@@ -5,14 +5,17 @@ body{
    
      background-color: rgb(210, 232, 240);
     margin: 55px auto;
+    max-width: 900px;
 }
 
 
- #main{
-    max-width: 650px;
+ header{
+    max-width: 900px;
     text-align: center;
-    margin: 0 auto;
+    
 }
 p{
     font-size: 20px;
 }
+
+
