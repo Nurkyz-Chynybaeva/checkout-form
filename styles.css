@@ -60,11 +60,12 @@ border-radius: 4px
 }
 
 .cont-2{
-   
+
 }
 .co{
     display: flex;
     border: 1px solid grey;
+    border-radius: 4px;
     justify-content: space-between;
 
    
@@ -78,7 +79,8 @@ border-radius: 4px
     font-size: 20px;
 }
     .co-2{
-        width: 600px;
+        width: 574px;
+
     }
 
 
