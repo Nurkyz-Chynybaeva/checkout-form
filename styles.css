@@ -109,19 +109,16 @@ margin: 5px 0;
 
     .cont-6{
         margin: 5px 0;
-    
-        display: flex;
-       
+         justify-content: space-between;
+        
     }
 
-    .conte{
-         justify-content: space-between;
-         flex-wrap: nowrap;
-    }
+       
+
 .conte-2{
     height: 35px;
     width: 220px;
-    border: -1px solid grey;
+    border: 1px solid grey;
         border-radius: 4px;
 }
 
@@ -131,6 +128,7 @@ margin: 5px 0;
     border: -1px solid grey;
         border-radius: 4px;
 }
+
 
 
 
