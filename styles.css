@@ -42,25 +42,23 @@ p{
 .container-1 .first .cont-1{
     display: flex;
     justify-content: space-between;
-  margin: 10px;
+  
   
    max-width: 500px;
 }
-.c-1{
-    margin:0 -10px;
-    
-}
+
+
 .c-2{
-    margin:0 20px ;
+    margin:0 30px ;
     
 }
-.i-1{width: 300px;
+.i-1{width: 290px;
     height: 35px;
 border: 1px solid grey;
 border-radius: 4px
 }
 .i-1-2{
-    width: 300px;
+    width: 290px;
     height: 35px;
     border: 1px solid grey;
     border-radius: 4px;
@@ -151,6 +149,34 @@ h2{
 .but{
     margin: 5px 0;
 }
+.cont-7{
+    display: flex;
+    justify-content: space-between;
+}
+.conta-1{
+    width: 300px;
+    height: 35px;
+border: 1px solid grey;
+border-radius: 4px
+}
+.conta-2{
+    width: 300px;
+    height: 35px;
+border: 1px solid grey;
+border-radius: 4px
+}
+.contai{
+    margin: 0 30px;
+}
 
-
-
+.cont-7{
+    margin: 15px 0;
+}
+p{
+    margin: -10px 0;
+    color: grey;
+   font-size: 12px;
+}
+.cont-8{
+    
+}
