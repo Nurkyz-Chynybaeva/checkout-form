@@ -203,8 +203,8 @@ border-radius: 4px
 }
 
 button{
-    background-color: rgb(59, 112, 172);
-    box-shadow: black;
+    background-color: rgb(24, 132, 168);
+    box-shadow: rgb(56, 173, 209);
     width: 635px;
     height: 45px;
     border-radius: 5px;
