@@ -172,11 +172,32 @@ border-radius: 4px
 .cont-7{
     margin: 15px 0;
 }
-p{
+.p-2{
     margin: -10px 0;
     color: grey;
    font-size: 12px;
 }
 .cont-8{
-    
+    display: flex;
+    justify-content: space-between;
+    max-width: 250px;
+    margin: 20px 0;
+}
+
+.contain-1{
+    margin: 5px 0;
+    width: 135px;
+    height: 35px;
+    border: 1px solid grey;
+    border-radius: 4px;
+}
+.contain-2{
+    margin: 5px 0;
+    width: 135px;
+    height: 35px;
+    border: 1px solid grey;
+    border-radius: 4px;
+}
+.containe{
+    margin: 0 30px;
 }
