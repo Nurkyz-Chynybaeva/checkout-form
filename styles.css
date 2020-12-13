@@ -211,3 +211,23 @@ button{
     color: white;
     font-size: 20px;
 }
+
+footer{
+    display: flex;
+   margin: 80px 0;
+    text-align: center;
+    
+}
+.footer-1{
+    font-size: 16px;
+    color: grey;
+    max-width: 250px;
+}
+
+.link-2{
+    margin: 0 10px;
+    color: rgb(1, 135, 180);
+}
+.link-1{
+    color: rgb(1, 135, 180);
+}
