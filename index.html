@@ -7,18 +7,21 @@
     <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
+
     <header>
         <img src="./bootstrap-solid.svg" width="65px" alt="">
         <h1>Checkout form</h1>
         <p>Below is an example form built entirely with Bootstrap's form controls. Each required form group has a validation state that can be triggered by attempting to submit the form without completing it. </p>
  </header>
 
+ <div id="containers">
+<div >
         <div class="container-1">
             <div class="first">
         <h1>Billing address</h1>
         <div class="cont-1">
            <div class="c-1"> 
-        <label for="name">First name</label> <br>
+        <label for="name">First name</label>
         <input type="text" name="name" id="name" class="i-1">
         </div>
         <div class="c-2">
@@ -77,15 +80,40 @@
         </div>
             
 
-        <div clas="zip">
+        <div class="zip">
             <label for="zip">Zip</label>
             <div>
            <input type="text" name="" id="zip" class="conte-3">
+            </div></div></div>
+   </div>
+<div class="container-2">
+<hr>
+<div class="but">
+<input type="checkbox" name="lanuage" id="p-2" value="p-2"><label for="kyrgyz">  Save this information for next time </label>
+   </div>     
+<div>
+<input type="checkbox" name="lanuage" id="p-1" value="p-1"><label for="p-1">  Shipping address is the same as my billing address</label>
+        </div>
+<hr>
+<div>
+    <h2>Payment</h2>
+    <input type="radio" name="gender" id="male" value="male">
+    <label for="male">Credit card</label>
+<div>
+    <input type="radio" name="gender" id="male" value="male">
+    <label for="male">Debit card</label>
 </div>
-           </div></div>
-    </div>
-            </div>
-            
-   
+<div>
+    <input type="radio" name="gender" id="male" value="male">
+    <label for="male">PayPal</label>
+</div>
+</div>
+
+
+
+
+</div>
+</div>
+
 </body>
 </html>
