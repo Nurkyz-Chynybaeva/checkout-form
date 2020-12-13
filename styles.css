@@ -20,17 +20,24 @@ body{
 p{
     font-size: 20px;
 }
-.container-1{
-    margin: 0 -45px;
-    display: flex;
-    flex-direction: column;
-    max-width: 650px;
+#containers{
+    display:inline-block;
+    justify-content: space-between;
+    max-width: 940px;
+    font-size: 17px;
+   
+    
 }
+
+
 .first{
     max-width: 350px;
     flex-wrap: wrap;
    display: flex;
 
+}
+.container-1{
+    max-width: 650px;
 }
 .container-1 .first .cont-1{
     display: flex;
@@ -121,10 +128,6 @@ margin: 5px 0;
     border-radius: 4px;
     
 }
-
-.state{
-    
-}
 .conte-2{
     width: 187px;
     height: 35px;
@@ -138,8 +141,16 @@ margin: 5px 0;
     border-radius: 4px;
 }
 
-
-
+.container-2 hr{
+   color: grey;
+   margin: 25px 0;
+}
+h2{
+    margin: 7px 0;
+}
+.but{
+    margin: 5px 0;
+}
 
 
 
