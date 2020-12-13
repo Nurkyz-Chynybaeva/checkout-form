@@ -1,11 +1,10 @@
 *{
-    
+  box-sizing: border-box;  
  }
 body{
     margin: 0;
-   
   background-color: rgb(237, 248, 252);
-  display: flex;
+  
 }
 .big-box{
   width: 100%;
@@ -21,7 +20,7 @@ body{
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
     line-height: 1.5;
     margin: 45px auto;
-    max-width: 80%;
+    max-width: 70%;
     text-align: center;
     
 }
@@ -29,7 +28,7 @@ p{
     font-size: 20px;
 }
 #small-box{
-       ;
+       
     max-width: 60%;
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
     line-height: 1.5;
@@ -55,7 +54,7 @@ p{
 
 
 .c-2{
-    margin:0 30px ;
+    margin:0 25px ;
     
 }
 .i-1{width: 290px;
@@ -73,17 +72,20 @@ border-radius: 4px
 
 .co{
     display: flex;
-    border: -1px solid grey;
+    border: -2px solid grey;
     border-radius: 5px;
     justify-content: space-between;
     margin: 5px 0;
 }
 .co-1{
-    background-color: rgb(172, 184, 196);
+    border: 1px solid grey;
+    background-color: rgb(212, 225, 238);
+    border-radius: 4px;
     width: 35px;
-    height: 36px;
+    height: 35px;
     text-align: center;
     font-size: 20px;
+  
 }
     .co-2{
         width: 574px;
@@ -257,22 +259,13 @@ flex-direction: column;
 }
 
 
-.your-cart{
-    display: flex;
-    max-width: 40%;
-  
-}
 
-.box-1{
-    
-  display: flex;
- justify-content: space-between;
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
-}
 #boxes{
+    flex-wrap: nowrap;
     display: flex;
-    justify-content: space-between;
+   justify-content: space-between;
     max-width: 90%;
     margin: 0 15%;
 }
+
 
