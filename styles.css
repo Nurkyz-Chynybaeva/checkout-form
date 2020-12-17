@@ -6,7 +6,11 @@ body{
    background-color: #f8f9fa;
  
 }
-
+.p-1{
+    font-weight: 300;
+    font-size: 20px;
+  
+}
 #boxes{
     flex-wrap: nowrap;
     display: flex;
